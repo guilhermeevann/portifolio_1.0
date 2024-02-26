@@ -1,0 +1,245 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+body{
+   background-color: rgb(19, 13, 50);
+}
+
+/* header */
+.portifolio-header{
+    background-color: rgb(11, 6, 33);
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 2px -2px rgba(255, 255, 255, 0.533);
+
+}
+
+.portifolio-header h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+/* section informações */
+.personal-info{
+    display: flex;
+    margin: 70px 70px ;
+    /* background-color: rgb(19, 13, 50); */
+    
+}
+
+.img-oerfil{
+    text-align: center;
+    border-radius: 35px;
+    border: 5px solid #fff;
+    padding: 5px;
+    width: 370px;
+    height: 470px;
+    max-width: 400px;
+    max-height: 500px;
+    margin-right: 25px;
+    background-color: rgb(5, 105, 37);
+    background-image: linear-gradient( to bottom right, rgb(10, 92, 72)10%, transparent, rgb(90, 90, 219) );
+    box-shadow: 1px 2px 3px 2px rgba(255, 255, 255, 0.649);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img-oerfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+
+.infos{
+    border-radius: 55px;
+    padding: 15px;
+    font-size: 32px ;
+    max-height: 500px;
+    margin-left: 25px;
+    color: #ffffffd2;
+    background-color: rgb(20, 228, 86);
+    background-image: linear-gradient( to bottom right, rgb(0, 255, 191)10%, transparent, rgb(90, 90, 219) );
+    box-shadow: 4px 4px 4px 3px #ffffffa5;
+    text-shadow: 1px 1px 2px #ffffffc9;
+    transition: 1.5s ;
+
+}
+.infos:hover{
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 32px ;
+    max-height: 500px;
+    margin-left: 25px;
+    color: #ffffffd2;
+    background-color: rgb(0, 20, 173);
+    background-image: linear-gradient( to bottom right, rgb(0, 255, 234)10%, transparent, rgb(111, 0, 255) );
+    box-shadow: 3px 3px 3px #ffffffa5;
+    text-shadow: 1px 1px 2px #ffffffc9;
+
+}
+
+.infos h2{
+    font-size: 42px;
+    margin-left: 17%;
+    margin-bottom: 25px;
+}
+
+/* section habilidades */
+
+.habilites-portifolio{
+    padding: 20px 50px;
+    
+}
+
+.hablites-titles{
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+    text-shadow: 1px 1px 2px #ffffffc9;
+
+}
+
+.hablites-titles h2{
+    padding: 0;
+    margin: 0;
+    color: #ffffffc0;
+
+}
+
+.container-habilites{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin: 0 auto;
+    background-color: rgb(19, 13, 50);
+
+}
+
+.skill{
+    /* border:  5px solid rgb(255, 255, 255); */
+    padding: 10px 30px;
+    margin: 0 20px;
+    border-radius: 32px;
+    text-align: center;
+    background-color: rgb(20, 228, 86);
+    background-image: linear-gradient( to bottom right, rgb(0, 255, 191)10%, transparent, rgb(90, 90, 219) ); 
+    color: #fff;
+    transition: 1s;
+    box-shadow: 2px 2px 2px 2px #ffffffbd;
+    text-shadow: 1px 1px 2px #ffffffc9;
+}
+.skill:hover{
+    /* border:  5px solid rgb(255, 255, 255); */
+    padding: 10px 30px;
+    margin: 0 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(135, 252, 0);
+    background-image: linear-gradient( to bottom right, rgb(0, 255, 191)25%, transparent, rgb(85, 0, 255) ); 
+    color: #fff;
+    text-shadow: 1px 1px 2px #ffffffc9;
+}
+
+/* Autodescrição seção */
+
+.autodescription{
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+
+.title-biograph{
+    font-size: 32px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    color: #ffffffc0;
+    text-shadow: 1px 1px 2px #ffffffc9;
+}
+
+.title-biograph h2{
+    margin: 0%;
+}
+.description{
+    text-align: center;
+    font-size: 22px;
+    color: #ffffffc0;
+    text-shadow: 1px 1px 2px #ffffffc9;
+    
+}
+
+
+/* social media */
+
+.social-media{
+    padding: 20px 50px;
+}
+
+.title-social{
+    font-size: 32px;
+    border-bottom: 1px solid rgb(251, 251, 251) ;
+    margin-bottom: 50px;
+
+}
+
+.title-social h2{
+    margin: 0;
+    color: #ffffffc0;
+    text-shadow: 1px 1px 2px #ffffffc9;
+   
+}
+
+.social-media-list li {
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color: #ffffffc0;
+    text-shadow: 1px 1px 2px #ffffffc9;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.social-media-list a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.social-media-list ul{
+    padding: 0;
+    
+}
+
+
+.insta{
+    text-align: center;
+    padding: 5px;
+    width: 230px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #fff;
+    background-image: linear-gradient(to top left, yellow, orange, rgb(255, 0, 123) );
+}
+
+.link{
+    text-align: center;
+    padding: 5px;
+    width: 230px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #fff;
+    background-image: linear-gradient(to top right, rgb(40, 66, 132), rgb(0, 126, 204), rgb(0, 32, 215) );
+}
+
+.git{
+    text-align: center;
+    padding: 5px;
+    width: 230px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #fff;
+    background-image: linear-gradient(to top left, rgb(39, 39, 39), rgb(70, 70, 70), rgb(0, 0, 0) );
+}
